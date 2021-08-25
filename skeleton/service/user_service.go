@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/Yapcheekian/rest-go/domain"
-	"github.com/Yapcheekian/rest-go/utils"
+	"github.com/Yapcheekian/rest-go/skeleton/domain"
+	"github.com/Yapcheekian/rest-go/skeleton/utils"
 )
 
 var (

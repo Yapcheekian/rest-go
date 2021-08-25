@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/Yapcheekian/rest-go/utils"
+	"github.com/Yapcheekian/rest-go/skeleton/utils"
 )
 
 var (

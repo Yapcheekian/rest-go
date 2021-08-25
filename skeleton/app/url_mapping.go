@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/Yapcheekian/rest-go/controller"
+	"github.com/Yapcheekian/rest-go/skeleton/controller"
 )
 
 func mapUrls() {

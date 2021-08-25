@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/Yapcheekian/rest-go/domain"
-	"github.com/Yapcheekian/rest-go/utils"
+	"github.com/Yapcheekian/rest-go/skeleton/domain"
+	"github.com/Yapcheekian/rest-go/skeleton/utils"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/Yapcheekian/rest-go/service"
-	"github.com/Yapcheekian/rest-go/utils"
+	"github.com/Yapcheekian/rest-go/skeleton/service"
+	"github.com/Yapcheekian/rest-go/skeleton/utils"
 	"github.com/gin-gonic/gin"
 )
 
