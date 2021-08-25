@@ -1,4 +1,4 @@
-package githubprovider
+package github_provider
 
 import (
 	"errors"
@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Yapcheekian/rest-go/src/clients/restclient"
-	"github.com/Yapcheekian/rest-go/src/domain/github"
+	"github.com/Yapcheekian/rest-go/src/api/clients/restclient"
+	"github.com/Yapcheekian/rest-go/src/api/domain/github"
 	"github.com/stretchr/testify/assert"
 )
 

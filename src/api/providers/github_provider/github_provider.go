@@ -1,4 +1,4 @@
-package githubprovider
+package github_provider
 
 import (
 	"encoding/json"
@@ -7,8 +7,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/Yapcheekian/rest-go/src/clients/restclient"
-	"github.com/Yapcheekian/rest-go/src/domain/github"
+	"github.com/Yapcheekian/rest-go/src/api/clients/restclient"
+	"github.com/Yapcheekian/rest-go/src/api/domain/github"
 )
 
 const (
