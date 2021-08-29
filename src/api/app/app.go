@@ -1,8 +1,7 @@
 package app
 
 import (
-	"log"
-
+	"github.com/Yapcheekian/rest-go/src/api/log"
 	"github.com/gin-gonic/gin"
 )
 
@@ -15,6 +14,8 @@ func init() {
 }
 
 func StartApp() {
+	log.Info("mapping urls...", "status:pending")
 	mapUrls()
-	log.Fatal(router.Run(":8080"))
+	log.Log.Info("url successfully mapped", "status:done")
+	router.Run(":8080")
 }
